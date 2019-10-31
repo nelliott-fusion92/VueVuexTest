@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@font-face {
+  font-family: 'Gotham';
+  src: url('https://font.liquidus.net/Gotham/gotham-book-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham_Bold';
+  src: url('https://font.liquidus.net/Gotham/gotham-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+See "../../node_modules/bootstrap/scss/_variables.scss" for theme properties to override
+*/
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.footer-copyright {
+  color: #fff !important;
+}
+h1 {
+  font-size: 1.8em !important;
+}
+h2 {
+  font-size: 1.5em !important;
+}
+.added{
+  background-color: var(--dark) !important;
+}
+.removed{
+  background-color: var(--dark) !important;
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap/scss/_variables.scss";
+@import "../../node_modules/bootstrap-vue/dist/bootstrap-vue.min.css";
